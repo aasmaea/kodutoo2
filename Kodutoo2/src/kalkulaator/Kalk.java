@@ -123,31 +123,31 @@ public class Kalk {
 
 	public static int i = 5;
 
-	// public static void main(String[] args) {
-	// System.out.println("Palun sisestage soovitud maksusüsteem "
-	// + "\n1- Neivelt" + "\n2- IRL" + "\n3- Keskerakond"
-	// + "\n4- Sotsiaaldemokraadid" + "\n5- Reformierakond"
-	// + "\n6- 2014. kehtiv süsteem" + "\n7- 2015. kehtiv süsteem");
-	// int i = TextIO.getlnInt() - 1;
-	// System.out.println("Palun sisestage brutopalk");
-	// double a = TextIO.getDouble();
-	// System.out.println("Te valite " + Määr.valimised[i]);
-	// System.out.println("Teie netopalk on " + np(i, a) + " €");
-	// System.out.println();
-	// System.out.println("Ettevõtte palgakulu on " + pf(i, a) + " €");
-	// System.out.println("Ettevõte maksab sotsiaalmaksu " + sm(i, a) + " €");
-	// System.out.println("Tööandja maksab töötuskindlustusmaksu "
-	// + tatkm(i, a) + " €");
-	// System.out.println();
-	// System.out.println("Töötaja maksab töötuskindlustusmaksu "
-	// + tttkm(i, a) + " €");
-	// System.out.println("Pensionifondi maksab töötaja " + kp(a) + " €");
-	// System.out.println("Tulumaksu tasute " + tm(i, a) + " €");
-	// System.out.println();
-	// System.out.println("Riigile laekub maksudena " + riik(i, a) + " €");
-	// System.out.println("Kohalikule omavalitsusele laekub maksudena "
-	// + kov(a) + " €");
-	// System.out.println("Kogumispensionifondi laekub " + kpf(a) + " €");
-	//
-	// }
+	public static void main(String[] args) {
+		System.out.println("Palun sisestage soovitud maksusüsteem "
+				+ "\n1- Neivelt" + "\n2- IRL" + "\n3- Keskerakond"
+				+ "\n4- Sotsiaaldemokraadid" + "\n5- Reformierakond"
+				+ "\n6- 2014. kehtiv süsteem" + "\n7- 2015. kehtiv süsteem");
+		int i = TextIO.getlnInt() - 1;
+		System.out.println("Palun sisestage brutopalk");
+		double a = TextIO.getDouble();
+		System.out.println("Te valite " + Määr.valimised[i]);
+		System.out.println("Teie netopalk on " + np(i, a) + " €");
+		System.out.println();
+		System.out.println("Ettevõtte palgakulu on " + pf(i, a) + " €");
+		System.out.println("Ettevõte maksab sotsiaalmaksu " + sm(i, a) + " €");
+		System.out.println("Tööandja maksab töötuskindlustusmaksu "
+				+ tatkm(i, a) + " €");
+		System.out.println();
+		System.out.println("Töötaja maksab töötuskindlustusmaksu "
+				+ tttkm(i, a) + " €");
+		System.out.println("Pensionifondi maksab töötaja " + kp(a) + " €");
+		System.out.println("Tulumaksu tasute " + tm(i, a) + " €");
+		System.out.println();
+		System.out.println("Riigile laekub maksudena " + riik(i, a) + " €");
+		System.out.println("Kohalikule omavalitsusele laekub maksudena "
+				+ kov(a) + " €");
+		System.out.println("Kogumispensionifondi laekub " + kpf(a) + " €");
+
+	}
 }
